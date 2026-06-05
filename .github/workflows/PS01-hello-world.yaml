@@ -1,6 +1,7 @@
 name: PS01-hello-world
 
-on: push
+on: 
+  workflow_dispatch:
 
 jobs: 
   hello-world-job:
