@@ -3,3 +3,7 @@ dist/
 build/
 .env
 .DS_Store
+demo-files/
+pages/
+public/
+styles/
