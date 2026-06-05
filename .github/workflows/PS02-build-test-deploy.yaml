@@ -1,0 +1,13 @@
+name: PS02-build-test-deploy
+
+on: workflow_dispatch
+
+jobs: 
+  hello-world-job:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "$(cat hello_world.txt)"
